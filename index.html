@@ -540,7 +540,8 @@
     body { font-variation-settings: "wdth" 100; }
     em, .swap-word { font-family: var(--sans); font-style: normal; font-weight: 700; color: var(--accent); font-size: 1em; letter-spacing: inherit; }
     h2, .hero-title, .scrub, .mega, .case h3, .xp-role, .edu-card h3, .mail { font-variation-settings: "wdth" 84; font-weight: 700; letter-spacing: -0.02em; }
-    .hero-title { font-size: clamp(2.5rem, 5vw, 4.1rem); line-height: 1.02; }
+    .hero-title { font-size: clamp(2.3rem, 4.6vw, 3.7rem); line-height: 1.04; }
+    @media (min-width: 600px) { .hero-title .line > span { white-space: nowrap; } }
     .mega { font-variation-settings: "wdth" 72; font-weight: 800; text-transform: uppercase; letter-spacing: -0.01em; line-height: .9; }
     .lbl { font-family: var(--sans); text-transform: none; letter-spacing: 0; font-weight: 700; font-size: .95rem; color: var(--accent); display: inline-flex; align-items: center; gap: .6rem; }
     .lbl::before { content: ''; width: 10px; height: 10px; background: var(--cta); flex: none; }
